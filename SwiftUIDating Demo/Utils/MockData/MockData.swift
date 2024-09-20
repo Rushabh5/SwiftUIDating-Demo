@@ -11,18 +11,18 @@ struct MockData {
     static let users: [User] = [
         .init(
             id: NSUUID().uuidString,
-            fullName: "Rushabh",
-            age: 31,
+            fullName: "Mark Zuckerberg",
+            age: 40,
             bio: "iOS Developer | Swift | Objective-C | Swift UI",
             profileImage: [
                 "rp-1",
-                "rp-2"
+                "rp-3"
             ]
         ),
         .init(
             id: NSUUID().uuidString,
-            fullName: "Pooja",
-            age: 28,
+            fullName: "Priscilla Chan",
+            age: 35,
             bio: "Android & Flutter Developer",
             profileImage: [
                 "pr-1",
@@ -32,11 +32,12 @@ struct MockData {
         ),
         .init(
             id: NSUUID().uuidString,
-            fullName: "Prisha",
-            age: 18,
+            fullName: "Randi Zuckerberg",
+            age: 22,
             bio: "MBBS | Heart",
             profileImage: [
-                "prisha-1"
+                "prisha-1",
+                "prisha-2"
             ]
         ),
     ]
