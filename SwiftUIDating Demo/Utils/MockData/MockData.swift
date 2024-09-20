@@ -34,7 +34,7 @@ struct MockData {
             id: NSUUID().uuidString,
             fullName: "Randi Zuckerberg",
             age: 22,
-            bio: "MBBS | Heart",
+            bio: "MBBS | Heart Specialist",
             profileImage: [
                 "prisha-1",
                 "prisha-2"
